@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.10
 MAINTAINER serge (lefaruch@gmx.fr)
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y nginx
